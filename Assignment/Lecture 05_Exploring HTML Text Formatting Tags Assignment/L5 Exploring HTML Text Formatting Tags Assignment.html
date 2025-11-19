@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assest/image/HTML Logo.png" type="image/x-icon">
+    <title>Exploring HTML Text Formatting Tags Assignment</title>
+    <style>
+        html p {
+            font-size: larger;
+        }
+        html ol {
+            font-size: larger;
+        }
+        html ul {
+            font-size: larger;
+        }
+        html li {
+            font-size: 19px;
+            margin-bottom: 9px;
+        }
+        html strong {
+            font-size: 19px;
+        }
+        html pre {
+            font-weight: bold;
+            font-size: 19px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Assignments Question & Answer</h1>
+
+    <h2>Task 1: Bold and Strong</h2>
+    <p><strong>Question:</strong> Write HTML to display the sentence:</p>
+    <p><strong>👉 "This word is bold, and this one is important."</strong></p>
+    <ul>
+        <li>Use <strong><code>&lt;b&gt;</code></strong> for <strong>"bold"</strong></li>
+        <li>Use <strong><code>&lt;strong&gt;</code></strong> for <strong>"important"</strong></li>
+    </ul>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Bold and Strong&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; This word is &lt;b&gt;bold&lt;/b&gt;, and this one is &lt;strong&gt;important&lt;/strong&gt;&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> This word is <b>bold</b>, and this one is <strong>important</strong></p>
+
+    <h2>Task 2: Italics vs Emphasis</h2>
+    <p><strong>Question:</strong> Create a paragraph where one word is italicized for style, and another word is emphasized with meaning.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Italics vs Emphasis&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;P&gt;&lt;strong&gt;Output:&lt;/strong&gt; Writing becomes clear when an &lt;strong&gt;&lt;i&gt;interesting&lt;/i&gt;&lt;/strong&gt; word adds style and an &lt;strong&gt;&lt;em&gt;important&lt;/em&gt;&lt;/strong&gt; idea is given emphasis.&lt;/P&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <P><strong>Output:</strong> Writing becomes clear when an <strong><i>interesting</i></strong> word adds style and an <strong><em>important</em></strong> idea is given emphasis.</P>
+
+    <h2>Task 3: Superscript in Math</h2>
+    <p><strong>Question:</strong> Display this equation using superscript:</p>
+    <p><strong>👉 X² + Y² = Z²</strong></p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Superscript in Math&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;P&gt;&lt;strong&gt;Output:&lt;/strong&gt; X&lt;sup&gt;2&lt;/sup&gt; + Y&lt;sup&gt;2&lt;/sup&gt; = Z&lt;sup&gt;2&lt;/sup&gt;&lt;/P&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <P><strong>Output:</strong> X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup></P>
+
+    <h2>Task 4: Subscript in Science</h2>
+    <p><strong>Question:</strong> Write the chemical formula for water (H₂O) using subscript.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Subscript in Science&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; The chemical formula for water H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> The chemical formula for water H<sub>2</sub>O</p>
+
+    <h2>Task 5: Highlight Text</h2>
+    <p><strong>Question:</strong> Write a sentence and highlight the word "important" using &lt;mark&gt;.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Highlight Text&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; The HTML is &lt;mark&gt;important&lt;/mark&gt; for webpage.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> The HTML is <mark>important</mark> for webpage.</p>
+
+    <h2>Task 6: Deleted Price</h2>
+    <p><strong>Question:</strong> show the orioginal price as deleted and the new price as normal</p>
+    <p><strong>👉 Example: ₹500 ₹400</strong></p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Deleted Price&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; Example: &lt;del&gt;₹500&lt;/del&gt; &lt;strong&gt;₹400&lt;/strong&gt;&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> Example: <strong><del>₹500</del></strong> <strong>₹400.</strong></p>
+
+    <h2>Task 7: Inserted Text</h2>
+    <p><strong>Question:</strong> Show the sentence: "This is newly added text" with the words newly added inside &lt;ins&gt;.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Inserted Text&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; This is &lt;strong&gt;&lt;ins&gt;newly added&lt;/ins&gt;&lt;strong&gt; text.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> This is <strong><ins>newly added</ins></strong> text.</p>
+
+    <h2>Task 8: Underline a Word</h2>
+    <p><strong>Question:</strong> Underline the word "HTML" in a paragraph.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Underline a Word&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; Underline the word "&lt;strong&gt;&lt;u&gt;HTML&lt;/u&gt;&lt;/strong&gt;" in a paragraph.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> Underline the word "<strong><u>HTML</u></strong>" in a paragraph.</p>
+
+    <h2>Task 9: Small Text Disclaimer</h2>
+    <p><strong>👉 Example: "Offer valid till tomorrow."</strong></p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Small Text Disclaimer&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; Offer &lt;strong&gt;&lt;small&gt;valid till&lt;/small&gt;&lt;/strong&gt; tomorrow.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> Offer <strong><small>valid till</small></strong> tomorrow.</p>
+
+
+    <h2>Task 10: Cite a Book</h2>
+    <p><strong>Question:</strong> Write the sentence:</p>
+    <p><strong>👉 "Pride and Prejudice was written by Jane Austen."</strong></p>
+    <ul>
+        <li>Use <strong><code>&lt;cite&gt;</code></strong> for the book title.</li>
+    </ul>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Cite a Book&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; &lt;strong&gt;&lt;cite&gt;Pride and Prejudice was written by Jane Austen.&lt;/cite&gt;&lt;/strong&gt;&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> <strong><cite>Pride and Prejudice was written by Jane Austen.</cite></strong></p>
+
+    <h2>Task 11: Contact Information</h2>
+    <p><strong>Question:</strong> Write an address with email using &lt;address&gt;.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Contact Information&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt;&lt;/p&gt;
+              &lt;address&gt;
+                  &lt;strong&gt;
+                      &lt;p&gt;
+                          Contact: XYZ25@gmail.com &lt;br&gt;
+                          Enter Name&lt;br&gt;
+                          Banglow No. 123, Ahmedabad city Gujarat
+                      &lt;/p&gt;
+                  &lt;/strong&gt;
+              &lt;/address&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong></p>
+    <address>
+        <strong>
+            <p>
+                Contact: XYZ25@gmail.com <br>
+                Enter Name<br>
+                Banglow No. 123, Ahmedabad city Gujarat
+            </p>
+        </strong>
+    </address>
+
+    <h2>Task 12: Inline Quotes</h2>
+    <p><strong>Question:</strong> Write a sentence with an inline quote:</p>
+    <p><strong>👉 She said, "I love web design."</strong></p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Inline Quotes&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; She said, &lt;strong&gt;&lt;q&gt;HTML is easy to learn.&lt;/q&gt;&lt;/strong&gt;.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> She said, <strong><q>HTML is easy to learn.</q></strong>.</p>
+
+    <h2>Task 13: Code Snippet</h2>
+    <p><strong>Question:</strong> Show the JavaScript code alert('Hello World'); using &lt;code&gt;.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Code Snippet&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; Use &lt;strong&gt;&lt;code&gt;alert('Hello World');&lt;/code&gt;&lt;/strong&gt; in JavaScript.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> Use <strong><code>alert('Hello World');</code></strong> in JavaScript.</p>
+
+    <h2>Task 14: Marquee Text</h2>
+    <p><strong>Question:</strong> Make text scroll left using <code>&lt;marquee&gt;</code>.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Marquee Text&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; &lt;strong&gt;&lt;marquee direction="left"&gt;Marquee for Scrolling Left.&lt;/marquee&gt;&lt;/strong&gt;&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> <strong><marquee direction="left">Marquee for Scrolling Left.</marquee></strong></p>
+
+    <h2>Task 15: Span Styling</h2>
+    <p><strong>Question:</strong> Use <code>&lt;span&gt;</code> to make the word "red" appear in red color.</p>
+    <strong>Answer:</strong>
+    <pre style="border:1px solid #000;padding:10px 55px 10px 0px;width:fit-content;">
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Span Styling&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+              &lt;!--Ans--&gt;
+              &lt;p&gt;&lt;strong&gt;Output:&lt;/strong&gt; This is a &lt;strong&gt;&lt;span style="color: red;"&gt;red&lt;/span&gt;&lt;/strong&gt; word.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>Output:</strong> This is a <strong><span style="color: red;">red</span></strong> word.</p>
+
+</body>
+</html>
