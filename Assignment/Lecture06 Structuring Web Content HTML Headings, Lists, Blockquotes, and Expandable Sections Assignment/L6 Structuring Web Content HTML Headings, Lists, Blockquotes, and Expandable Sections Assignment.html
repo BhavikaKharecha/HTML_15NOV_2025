@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Headings, Lists, Blockquotes, Details & Summary</title>
+</head>
+<body>
+    <h1>HTML Headings, Lists, Blockquotes, Details & Summary</h1>
+
+    <h2>Task 1: Create a main heading and a subheading.</h2>
+    <h3>💡 Hint: Use &lt;h1&gt; for the main title and &lt;h2&gt; for a subtitle.</h3>
+    <h3>Answer:</h3>
+    <dl>
+        <dd><h1>Hello</h1></dd>
+        <dd><h2>Hello Guys</h2></dd>
+    </dl>
+
+    <h2>Task 2: Create a step-by-step ordered list of making tea.</h2>
+    <h3>💡 Hint: Use &lt;ol&gt; and &lt;li&gt; tags for ordered steps.</h3>
+    <h3>Answer:</h3>
+    <ul>
+        <li>
+            <dl>
+                <dt><strong>Making tea:</strong></dt>
+                <dd>
+                    <ol>
+                        <strong>
+                            <li>First take a kettle.</li>
+                            <li>Now, add water to it and boil it.</li>
+                            <li>Now, add tea leaves or tea bags.</li>
+                            <li>Let it boil for 2-3 minutes.</li>
+                            <li>Now, add sugar and milk as needed.</li>
+                            <li>stir well.</li>
+                            <li>And now, your hot tea is ready.</li>
+                        </strong>
+                    </ol>
+                </dd>
+            </dl>
+        </li>
+    </ul>
+    
+
+    <h2>Task 3: Create an unordered list of your three favorite fruits.</h2>
+    <h3>💡 Hint: Use &lt;ul&gt; with &lt;li&gt; items for bullet points.</h3>
+    <h3>Answer:</h3>
+    <ul>
+        <li>
+            <dl>
+                <dt><strong>list of my three favorite fruits:</strong></dt>
+                <dd>
+                    <ul>
+                        <strong>
+                            <li>Banana.</li>
+                            <li>Mango.</li>
+                            <li>Orenge.</li>
+                        </strong>
+                    </ul>
+                </dd>
+            </dl>
+        </li>
+    </ul>
+
+    <h2>Task 4: Create a description list for HTML and CSS.</h2>
+    <h3>💡 Hint: Use &lt;dl&gt;, with &lt;dt&gt; for the term and &lt;dd&gt; for its definition.</h3>
+    <h3>Answer:</h3>
+    <ol>
+        <li>
+            <dl>
+                <dt><strong>HTML :</strong></dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <strong>HyperText Markup Language:</strong> The standard markup language for creating web pages.
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </li>
+
+        <li>
+            <dl>
+                <dt><strong>CSS :</strong></dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <strong>Cascading Style Sheets:</strong> A stylesheet language used to describe the presentation of a document written in HTML.
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </li>
+    </ol>
+
+    <h2>Task 5: Create a heading hierarchy for a school website.</h2>
+    <h3>💡 Hint: Use &lt;h1&gt; for the school name, then smaller headings for sections.</h3>
+    <h3>Answer:</h3>
+    <dl>
+        <hr>
+        <dt>
+            <h1>[Your School Name] High School</h1>
+        </dt>
+        <dd>
+            <hr>
+
+            <h2>About Our School</h2>
+            <p>A brief introduction to the school's mission and history.</p>
+
+            <h3>Mission & Vision</h3>
+            <p>Details about the school's core values.</p>
+
+            <h3>School History</h3>
+            <p>A timeline of important events.</p>
+
+            <hr>
+
+            <h2>Academics</h2>
+            <p>Information on curriculum, departments, and programs.</p>
+
+            <h3>Departments</h3>
+            <h4>Mathematics</h4>
+            <h4>Science</h4>
+            <h4>Language Arts</h4>
+
+            <h3>Curriculum Overview</h3>
+
+            <hr>
+
+            <h2>Athletics & Activities</h2>
+            <p>A list of sports teams and extracurricular clubs.</p>
+
+            <h3>Sports Teams</h3>
+            <h3>Extracurricular Clubs</h3>
+
+            <hr>
+
+            <h2>News & Events</h2>
+            <p>The latest updates and calendar events.</p>
+
+            <hr>
+
+            <h2>Contact Us</h2>
+            <h4>Office Hours</h4>
+            <h4>Location Map</h4>
+        </dd>
+        <hr>
+    </dl>
+
+    <h2>Task 6: Write a blockquote with a famous quote.</h2>
+    <h3>💡 Hint: Use <code>&lt;blockquote&gt;</code> to create an indented quote.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>Famous Quote</h2>
+        </dt>
+        <dd>
+            <blockquote>
+                <p>The only way to do great work is to love what you do.</p>
+                <footer>... <cite>Bhavika Kharecha</cite></footer>
+            </blockquote>
+        </dd>
+    </dl>
+
+    <h2>Task 7: Add A blockquote with a cite attribute.</h2>
+    <h3>💡 Hint: Add <code>&lt;cite="URL"&gt;</code> inside the <code>&lt;blockquote&gt;</code> tag.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>A Quote with Source URL</h2>
+        </dt>
+        <dd>
+            <blockquote cite="https://www.example.com/products/item1">
+                <p>If I have seen further, it is by standing on the shoulders of Giants.</p>
+                <footer>... <cite>Bhavika Kharecha</cite></footer>
+            </blockquote>
+        </dd>
+    </dl>
+
+    <h2>Task 8: Create a collapsible section for extra notes.</h2>
+    <h3>💡 Hint: Use <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> for expandable content.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>collapsible section for extra notes</h2>
+        </dt>
+        <dd>
+            <details>
+                <summary><strong>Extra Notes</strong></summary>
+                <p>Here are some special notes!</p>
+                <ul>
+                    <li>This is a very important detail.</li>
+                    <li>Don't forget to check this section!</li>
+                    <li>More information can be found here.</li>
+                </ul>
+            </details>
+        </dd>
+    </dl>
+
+    <h2>Task 9: Create a FAQ section using details and summary.</h2>
+    <h3>💡 Hint: Each question goes inside <code>&lt;summary&gt;</code>, and the answer inside <code>&lt;p&gt;</code>.
+    </h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2> Frequently Asked Questions (FAQ)</h2>
+        </dt>
+        <dd>
+            <details>
+                <summary><strong> What is this product?</strong></summary>
+                <dd>
+                    <ul>
+                        <li>
+                            This product is an innovative solution designed to streamline your daily tasks and boost productivity!
+                        </li>
+                    </ul>
+                </dd>
+            </details>
+
+            <details>
+                <summary><strong> How do I use it?</strong></summary>
+                <dd>
+                    <ul>
+                        <li>
+                            Simply follow the step-by-step guide included in the package, or watch our helpful video tutorial online for a visual demonstration!
+                        </li>
+                    </ul>
+                </dd>
+            </details>
+
+            <details>
+                <summary><strong> What is the price?</strong></summary>
+                <dd>
+                    <ul>
+                        <li>
+                            The standard version is priced at $49.99, with a premium version available for $79.99 offering enhanced features. 
+                        </li>
+                    </ul>
+                </dd>
+            </details>
+
+            <details>
+                <summary><strong>How long does shipping take?</strong></summary>
+                <dd>
+                    <ul>
+                        <li>
+                            Standard shipping typically takes 3-5 business days, while expedited shipping options are available for faster delivery!
+                        </li>
+                    </ul>
+                </dd>
+            </details>
+
+            <details>
+                <summary><strong> Can I return the product?</strong></summary>
+                <dd>
+                    <ul>
+                        <li>
+                            Yes, we offer a 30-day money-back guarantee if you are not completely satisfied with your purchase! Your happiness is our priority!
+                        </li>
+                    </ul>
+                </dd>
+            </details>
+        </dd>
+    </dl>
+
+    <h2>Task 10: Create a nested list (unordered inside ordered).</h2>
+    <h3>💡 Hint: Place a <code>&lt;ul&gt;</code> inside an <code>&lt;li&gt;</code> of an <code>&lt;ol&gt;</code>.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>Project Development Phases</h2>
+        </dt>
+        <dd>
+            <ol>
+                <li>
+                    <strong>Phase 1: Planning and Research</strong>
+                    <ul>
+                        <li>Define project scope and objectives.</li>
+                        <li>Conduct market analysis.</li>
+                        <li>Allocate resources and budget.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Phase 2: Design and Prototyping</strong>
+                    <ul>
+                        <li>Create wireframes and mockups.</li>
+                        <li>Develop a functional prototype.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Phase 3: Implementation and Testing</strong>
+                    <ul>
+                        <li>Write and integrate code modules.</li>
+                        <li>Perform unit and integration testing.</li>
+                        <li>Fix reported bugs.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Phase 4: Deployment and Maintenance </strong>
+                    <ul>
+                        <li>Go live and monitor system performance.</li>
+                    </ul>
+                </li>
+            </ol>
+        </dd>
+    </dl>
+
+    <h2>Task 11: Create a simple navigation menu using an unordered list.</h2>
+    <h3>💡 Hint: Use <code>&lt;ul&gt;</code> for the menu and <code>&lt;li&gt;</code> for each item.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2> Website Navigation Menu:</h2>
+        </dt>
+        <dd>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </dd>
+    </dl>
+
+    <h2>Task 12: Create a heading with a title tooltip.</h2>
+    <h3>💡 Hint: Add <code>&lt;title="..."&gt;</code> for the <code>&lt;h2&gt;</code> tag.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>Heading with Tooltip</h2>
+        </dt>
+        <dd>
+            <h2 title="This is a fantastic tooltip! ">Hover over me!</h2>
+        </dd>
+    </dl>
+
+    <h2>Task 13: Create a blockquote with multiple lines of text.</h2>
+    <h3>💡 Hint: Just add more text inside <code>&lt;blockquote&gt;</code>.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>Daily Inspiration: Launching Ideas and Embracing Progress.</h2>
+        </dt>
+        <dd>
+            <blockquote>
+                <p> Rise and shine! What a beautiful day to start fresh.</p>
+                <p> Don't be afraid to launch your ideas and see how high they fly.</p>
+                <p> Remember to be kind to yourself and others.</p>
+                <p> A little bit of creativity goes a long way.</p>
+                <p> Every small step is still progress.</p>
+                <p> End the day with a grateful heart and peaceful mind .</p>
+                <footer>— Harsh Kharecha</footer>
+            </blockquote>
+        </dd>
+    </dl>
+
+    <h2>Task 14: Create a nested ordered list of daily routine.</h2>
+    <h3>💡 Hint: Use <code>&lt;ol&gt;</code> inside another <code>&lt;li&gt;</code> of an <code>&lt;ol&gt;</code>.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>Analyze your daily routine to make the most of each organised day and plan your daily routine.</h2>
+        </dt>
+        <dd>
+           <ol>
+            <li>Morning
+                <ol>
+                    <li>Wake up & Stretch.</li>
+                    <li>Brush Teeth & Skincare.</li>
+                    <li>Breakfast & Coffee.</li>
+                </ol>
+            </li>
+            <li>Afternoon 
+                <ol>
+                    <li>Work/Study Session.</li>
+                    <li>Lunch Break.</li>
+                    <li>Quick Walk/Exercise.</li>
+                </ol>
+            </li>
+            <li>Evening 
+                <ol>
+                    <li>Dinner Preparation & Meal.</li>
+                    <li>Relaxation Time (Reading/Hobby).</li>
+                    <li>Prepare for Bed.</li>
+                </ol>
+            </li>
+        </ol>
+        </dd>
+    </dl>
+
+    <h2>Task 15: Create a collapsible section for “Course Details” with a heading inside.</h2>
+    <h3>💡 Hint: Place <code>&lt;h3&gt;</code> and <code>&lt;p&gt;</code> inside <code>&lt;details&gt;</code>. Use <code>&lt;summary&gt;</code> as the clickable title.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2> Academic Course Information</h2>
+        </dt>
+        <dd>
+            <details>
+                <summary>
+                    <strong>Course Details (Click to Expand)</strong>
+                </summary>
+                <h3>Introduction to Web Development</h3>
+                <p>This course covers the fundamentals of HTML, CSS, and JavaScript. You will learn how to structure content, style web pages, and add interactivity.</p>
+                <ul>
+                    <li>Duration: 8 Weeks</li>
+                    <li>Format: Online, Self-Paced</li>
+                    <li>Prerequisites: None</li>
+                </ul>
+            </details>
+        </dd>
+    </dl>
+
+    <h2>Task 17: Create a this List</h2>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt>
+            <h2>Nested Unordered List</h2>
+            <h3>Geeks for Geeks courses list:</h3>
+        </dt>
+        <dd>
+            <ul>
+                <li>DSA
+                    <ul>
+                        <li>Array</li>
+                        <li>Linked List</li>
+                        <li>Stack</li>
+                        <li>Queue</li>
+                    </ul>
+                </li>
+                <li>
+                    Web Technologies
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Aptitude</li>
+                <li>Gate</li>
+                <li>Placement</li>
+            </ul>
+        </dd>
+    </dl>
+
+</body>
+</html>
