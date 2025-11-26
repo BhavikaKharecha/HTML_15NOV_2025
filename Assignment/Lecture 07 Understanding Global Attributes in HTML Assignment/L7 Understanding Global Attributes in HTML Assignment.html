@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Attributes, &lt;img&gt;, and Image Maps</title>
+</head>
+<body>
+    <h2>Task 1: Add a paragraph with a unique ID and a class name</h2>
+    <h3>Description: This task teaches how to use global attributes <mark>id and class</mark> to identify and style HTML elements. <mark>id</mark> is unique, while <mark>class</mark> can be shared across multiple elements.</h3>
+    <h3>Answer:</h3>
+    <ul><strong><li><p id="intro-text" class="highlight">Lorem ipsum dulor sit amet.</p></li></strong></ul>
+    
+    <h2>Task 2: Add a title attribute to a heading so that a toultip appears on hover</h2>
+    <h3>Description: The <mark>title attribute</mark> provides extra information about an element. A toultip appears when the user hovers over it.</h3>
+    <h3>Answer:</h3>
+    <ul><strong><li><p title="This is a my Home Work.">Lorem ipsum dulor sit amet.</p></li></strong></ul>
+
+    <h2>Task 3: Create an image with width 400px, height 300px, and alt text “Beautiful Landscape”</h2>
+    <h3>Description: This task demonstrates how to display images and improve accessibility using the <mark>alt attribute</mark>.</h3>
+    <h3>Answer:</h3>
+    <img src="./assest/image/img.jpg" alt="Beautiful Landscape" width="400px" height="300px">
+
+    <h2>Task 4: Use a class attribute to style an image with CSS</h2>
+    <h3>Description: Students learn to use a <mark>class for styling</mark> images with CSS, such as rounding corners.</h3>
+    <h3>Answer:</h3>
+    <img src="./assest/image/img.jpg" alt="Example class for styling image" class="rounding corners" width="400px" height="300px">
+
+    <h2>Task 5: Add an image that uses lazy loading</h2>
+    <h3>Description: <mark>Lazy loading improves page performance</mark> by loading images only when needed.</h3>
+    <h3>Answer:</h3>
+    <img src="./assest/image/img.jpg" alt="Example lazy loading image" class="rounding corners" width="400px" height="300px">
+
+    <h2>Task 6: Add a toultip to an image using the title attribute</h2>
+    <h3>Description: This shows how the <mark>title</mark> attribute can be used to provide <mark>additional information about images</mark>.</h3>
+    <h3>Answer:</h3>
+    <img src="./assest/image/img.jpg" alt="Example title attribute image" title="This ia a Radha Krishna image" width="400px" height="300px">
+
+    <h2>Task 7: Create a simple image map with two clickable areas</h2>
+    <h3>Description: Students learn to make images <mark>interactive</mark> by assigning clickable areas that link to other pages.</h3>
+    <h3>Answer:</h3>
+    <img src="MYmap.jpg" alt="Example MY Map image" usemap="#MYmap" width="600">
+
+    <map name="MYmap">
+        <area shape="rect" coords="Enter imge pixel code" href="asia.html" alt="Asia">
+        <area shape="circle" coords="Enter imge pixel code" href="europe.html" alt="Europe">
+    </map>
+
+    <h2>Task 8: Add a hidden paragraph using a global attribute</h2>
+    <h3>Description: This task teaches how to <mark>hide elements</mark> on a page using the <mark>hidden attribute</mark>.</h3>
+    <h3>Answer:</h3>
+    <ul><strong><li><p>This paragraph is visible.</p><p hidden>This paragraph is hiden and the user cannot see it.</p></li></strong></ul>
+
+    <h2>Task 9: Add a data-* attribute to a paragraph and access it using HTML</h2>
+    <h3>Description: Students learn to store <mark>custom data</mark> in elements for later use in JavaScript or CSS.</h3>
+    <h3>Answer:</h3>
+    <dl>
+        <dt><h2>This is a data- attribute to a paragraph and access it using HTML.</h2></dt>
+        <dd>
+            <ul>
+                <li><h3 id="info" data-message="This is hidden data stored in the paragraph.">Click this text to see the stored data. </h3></li>
+            </ul>
+        </dd>
+    </dl>
+
+    <h2>Task 10: Create an image with an ID and link it to a CSS style</h2>
+    <h3>Description: This task shows how the <mark>id</mark> attribute can be used to <mark>style a single element</mark> uniquely using CSS.</h3>
+    <h3>Answer:</h3>
+    <ul><li><h2>Image Styled with an ID</h2></li></ul>
+    <ul><li><img src="./assest/image/img.jpg" id="special-image" alt="Example image with an ID and link it to a CSS style Image"></li></ul>
+
+    <h2>Task 11: Make an image clickable using an &lt;a&gt; tag</h2>
+    <h3>Description: This teaches students how to <mark>wrap images in links</mark>, making images act as buttons or navigational elements.</h3>
+    <h3>Answer:</h3>
+    <dl>
+        <dt><h2>This is a Clickable Image.</h2></dt>
+        <dd>
+            <a href="https://example.com">
+                <img src="./assest/image/img.jpg" alt="Clickable Image" width="200">
+            </a>
+        </dd>
+    </dl>
+
+    <h2>Task 12: Create a polygon image map with 3 points</h2>
+    <h3>Description: Students practice <mark>advanced image maps</mark> using polygons for irregular clickable regions.</h3>
+    <h3>Answer:</h3>
+    <dl>
+        <dt><h2>Polygon Image Map.</h2></dt>
+        <dd>
+            <img src="shapes.jpg" alt="Shapes" usemap="#polyMap" width="400">
+
+                <map name="polyMap">
+                <!-- Polygon with 3 points (a triangle) -->
+                    <area shape="poly" 
+                            coords="50,50, 150,50, 100,150" 
+                            href="triangle.html" 
+                            alt="Triangle Area">
+                </map>
+        </dd>
+    </dl>
+
+    <h2>Task 13: Add a tabindex attribute to a button for keyboard navigation</h2>
+    <h3>Description: This demonstrates <mark>keyboard accessibility</mark>, allowing users to navigate elements using the Tab key.</h3>
+    <h3>Answer:</h3>
+    <dl>
+        <dt><h2>tabindex attribute to a button for keyboard navigation.</h2></dt>
+        <dd>
+            <button tabindex="1">First Button</button>
+            <button tabindex="2">Second Button</button>
+        </dd>
+    </dl>
+
+    <h2>Task 14: Use multiple global attributes in a single image element.</h2>
+    <h3>Description: Students learn to combine <mark>multiple attributes like id, class, title, and alt for flexibility</mark>.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt><h2>multiple global attributes in a single image element.</h2></dt>
+        <dd>
+            <img src="./assest/image/img.jpg" alt="Beautiful Nature Scene" id="mainImage" class="featured large" title="This is a highlighted image">
+        </dd>
+    </dl>
+
+    <h2>Task 15: Create an image with a tooltip, lazy loading, and a CSS class for rounded corners.</h2>
+    <h3>Description: This combines multiple techniques: <mark>styling, accessibility, and performance optimization</mark>.</h3>
+    <h3>Answer:</h3>
+
+    <dl>
+        <dt><h2>Enhanced Image Example.</h2></dt>
+        <dd>
+            <img src="scenery.jpg" alt="Beautiful scenery" class="rounded" title="This is a scenic view" loading="lazy">
+        </dd>
+    </dl>
+</body>
+</html>
