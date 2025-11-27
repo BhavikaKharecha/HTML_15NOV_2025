@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables (&lt;colgroup&gt;, colspan, rowspan)</title>
+</head>
+
+<body>
+    <h1>HTML Tables (&lt;colgroup&gt;, colspan, rowspan).</h1>
+
+    <h2>Task 1: Create a <mark style="background-color: aqua; color: black;">simple table with 3 columns: Name, Age,
+            Grade</mark>.</h2>
+    <h3>Hint: Use <mark>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Niyati</td>
+                <td>17</td>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <td>Shraddha</td>
+                <td>16</td>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <td>Urmi</td>
+                <td>17</td>
+                <td>A2</td>
+            </tr>
+            <tr>
+                <td>Nidhi</td>
+                <td>17</td>
+                <td>A2</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 2: Add a <mark style="background-color: aqua; color: black;">&lt;colgroup&gt; to color the first column
+            lightblue</mark>.</h2>
+    <h3>Hint: Use <mark>&lt;colgroup&gt; and &lt;col&gt; with style</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="1">
+            <colgroup>
+                <col span="1" style="background-color: lightblue;">
+            </colgroup>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 3: Style the <mark style="background-color: aqua; color: black;">second and third columns using span in
+            &lt;col&gt;</mark>.</h2>
+    <h3>Hint: Use <mark>span="2"</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border=2px">
+            <colgroup>
+                <col span="1" style="background-color: lightblue;">
+                <col span="2" style="background-color: deeppink;">
+            </colgroup>
+            <tr>
+                <th>No.</th>
+                <th>Fruit Name</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Mango</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Orange</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Banana</td>
+                <td>30</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 4: Merge the <mark style="background-color: aqua; color: black;">first row into a single header using
+            colspan</mark>.</h2>
+    <h3>Hint: <mark>colspan="3" for 3 columns</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="1">
+            <tr>
+                <th colspan="3">Student Information</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Niyati</td>
+                <td>17</td>
+                <td>A2</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 5: Merge two <mark style="background-color: aqua; color: black;">rows for the first student's name using
+            rowspan</mark>.</h2>
+    <h3>Hint: Use <mark>rowspan="2" on &lt;td&gt;</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <tr>
+                <th>Name</th>
+                <th>Standard</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Niyati</th>
+                <td>9th</td>
+                <td>75%</td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>88%</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Shraddha</th>
+                <td>9th</td>
+                <td>71%</td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>86%</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 6: Create a <mark style="background-color: aqua; color: black;">table with alternating column colors using
+            &lt;colgroup&gt;</mark>.</h2>
+    <h3>Hint: <mark>Define &lt;col&gt; with different background-color</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="1">
+            <colgroup>
+                <col span="1" style="background-color: aquamarine;">
+                <col span="1" style="background-color: aqua;">
+                <col span="1" style="background-color: blue;">
+                <col span="1" style="background-color: cadetblue;">
+            </colgroup>
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>$1300</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 7: Add a <mark style="background-color: aqua; color: black;">total row at the bottom using colspan</mark>.
+    </h2>
+    <h3>Hint: <mark>Merge first two columns</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <tr>
+                <th>Name</th>
+                <th>Standard</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Niyati</th>
+                <td>9th</td>
+                <td>75%</td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>88%</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Shraddha</th>
+                <td>9th</td>
+                <td>71%</td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>86%</td>
+            </tr>
+            <tr>
+                <th colspan="2">Total Students</th>
+                <td>2</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 8: Create a <mark style="background-color: aqua; color: black;">table with a header row and 3 data
+            rows</mark>.</h2>
+    <h3>Hint: Use <mark>&lt;th&gt; for headers, &lt;td&gt; for data</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Hobby</th>
+            </tr>
+            <tr>
+                <th>Aadhya</th>
+                <td>18</td>
+                <td>Reading</td>
+            </tr>
+            <tr>
+                <th>Aaradhya</th>
+                <td>17</td>
+                <td>Drawing</td>
+            </tr>
+            <tr>
+                <th>Aditi</th>
+                <td>19</td>
+                <td>Badminton</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 9: Merge the <mark style="background-color: aqua; color: black;">subject cell vertically for a student with
+            rowspan</mark>.</h2>
+    <h3>Hint: <mark>Apply rowspan="2" to &lt;td&gt;</mark>.</h3>
+    <h3>Answe:</h3>
+    <h2>
+        <table border="2px">
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Mark</th>
+            </tr>
+            <tr>
+                <td>Aisha</td>
+                <th rowspan="2">Maths</th>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Asha</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Aisha</td>
+                <th rowspan="2">Science</th>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Asha</td>
+                <td>85</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 10: Create a <mark style="background-color: aqua; color: black;">table with a title row spanning all
+            columns and colored using &lt;colgroup&gt;</mark>.</h2>
+    <h3>Hint: Use <mark>colspan and style first column</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <colgroup>
+                <col span="1" style="background-color: deepskyblue;">
+                <col span="1" style="background-color: darkorchid;">
+                <col span="1" style="background-color: goldenrod;">
+            </colgroup>
+            <tr>
+                <th colspan="3">Student Report</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <th>Anvi</th>
+                <td>18</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <th>Anisha</th>
+                <td>17</td>
+                <td>90</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 11: Style <mark style="background-color: aqua; color: black;">multiple columns at once with span</mark>.
+    </h2>
+    <h3>Hint: <mark>&lt;col span="2" style="background-color: #f0f0f0;"&gt;</mark></h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <colgroup>
+                <col span="2" style="background-color: aqua;">
+            </colgroup>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <th>Bhargavi</th>
+                <td>18</td>
+            </tr>
+            <tr>
+                <th>Bhairavi</th>
+                <td>18</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 12: Combine <mark style="background-color: aqua; color: black;">rowspan and colspan in a table cell</mark>.
+    </h2>
+    <h3>Hint: <mark>One cell can merge both rows and columns</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <tr>
+                <th colspan="3">Government Polytechnic</th>
+            </tr>
+            <tr>
+                <th>class</th>
+                <th>Name</th>
+                <th>Roll No.</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Computer Enginering</th>
+                <td>Niyati</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Shraddha</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Urmi</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 13: Create a <mark style="background-color: aqua; color: black;">timetable-like table using rowspan for a
+            subject repeated across days</mark>.</h2>
+    <h3>Hint: Use <mark>rowspan to merge days</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="8px">
+            <tr>
+                <th>Day</th>
+                <th>09:00 TO 10:00</th>
+                <th>10:00 To 11:00</th>
+                <th>11:00 TO 11:30</th>
+                <th>11:30 To 12:30</th>
+                <th>12:30 To 01:30</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td rowspan="2">Maths</td>
+                <td>English</td>
+                <td rowspan="2">Break</td>
+                <td>Science</td>
+                <td rowspan="2">Physics</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Computer</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Science</td>
+                <td>English</td>
+                <td rowspan="2">Break</td>
+                <td rowspan="2">computer</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Science</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 14: Apply <mark style="background-color: aqua; color: black;">background color to all columns using
+            &lt;colgroup&gt;</mark>.</h2>
+    <h3>Hint: Define <mark>multiple &lt;col&gt; elements with different colors</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <colgroup>
+                <col span="1" style="background-color: deepskyblue;">
+                <col span="1" style="background-color: darkorchid;">
+                <col span="1" style="background-color: goldenrod;">
+            </colgroup>
+            <tr>
+                <th colspan="3">Student Report</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <th>Bhargavi</th>
+                <td>18</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <th>Bhairavi</th>
+                <td>17</td>
+                <td>88</td>
+            </tr>
+        </table>
+    </h2>
+
+    <h2>Task 15: Create a <mark style="background-color: aqua; color: black;">complete student report combining &lt;colgroup&gt;, rowspan, and colspan</mark>.</h2>
+    <h3>Hint: <mark>Use all three features in one table</mark>.</h3>
+    <h3>Answer:</h3>
+    <h2>
+        <table border="2px">
+            <colgroup>
+                <col style="background-color: crimson">
+                <col style="background-color: blueviolet;">
+                <col style="background-color: deeppink;">
+            </colgroup>
+            <tr>
+                <th colspan="3">Student Report</th>
+            </tr>
+            <tr>
+                <th>class</th>
+                <th>Name</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Computer Enginering</th>
+                <td>Niyati</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Shraddha</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Urmi</td>
+                <td>88</td>
+            </tr>
+        </table>
+    </h2>
+</body>
+</html>
