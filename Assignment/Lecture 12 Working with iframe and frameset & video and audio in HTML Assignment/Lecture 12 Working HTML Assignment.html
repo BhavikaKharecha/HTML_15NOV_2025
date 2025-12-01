@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Frameset, Iframe, Video & Audio (with Hints & Answers)</title>
+</head>
+
+<body>
+    <h1>HTML Frameset, Iframe, Video & Audio (with Hints & Answers)</h1>
+
+    <h2>Task 1: Create a simple iframe embedding an external webpage.</h2>
+    <h3>Hint: Use &lt;iframe&gt; with src, width, and height.</h3>
+    <h3>Answer:</h3>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14687.735827717079!2d72.55600539999999!3d23.026197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e845178057517%3A0xf37fb13e213a6359!2sSabarmati%20Riverfront!5e0!3m2!1sen!2sin!4v1764606748263!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <h2>Task 2: Remove the border from an iframe.</h2>
+    <h3>Hint: Use the frameborder attribute.</h3>
+    <h3>Answer:</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KJF8t-BWVRM?si=CMjhzDqiqnSQPrH4"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
+    <h2>Task 3: Embed a YouTube video using iframe.</h2>
+    <h3>Hint: Copy the embed URL from YouTube.</h3>
+    <h3>Answer:</h3>
+    <iframe width="560" height="315"
+        src="https://www.youtube-nocookie.com/embed/ht3HktDmrBc?si=Ud0tuxxvqLp4wPQm&amp;start=5"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2>Task 4: Create a video element with controls.</h2>
+    <h3>Hint: Use &lt;video&gt; and controls attribute.</h3>
+    <h3>Answer:</h3>
+    <video width="640" height="360" controls>
+        <source src="../../../../HTML/BhavikaKharecha Video Assignment.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Task 5: Add autoplay to a video element.</h2>
+    <h3>Hint: Use the autoplay attribute.</h3>
+    <h3>Answer:</h3>
+    <video width="400" controls autoplay>
+        <source src="../../../../HTML/BhavikaKharecha Video Assignment.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Task 6: Create a looping video.</h2>
+    <h3>Hint: Use the loop attribute.</h3>
+    <h3>Answer:</h3>
+    <video width="400" controls loop>
+        <source src="../../../../HTML/BhavikaKharecha Video Assignment.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Task 7: Embed an audio file with controls.</h2>
+    <h3>Hint: Use &lt;audio&gt; and controls.</h3>
+    <h3>Answer:</h3>
+    <audio controls>
+        <source src="../../../../Bhavika/Chashni - Bharat 320 Kbps.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Task 8: Add autoplay to an audio element.</h2>
+    <h3>Hint: Use the autoplay attribute.</h3>
+    <h3>Answer:</h3>
+    <audio autoplay>
+        <source src="../../../../Bhavika/Chashni - Bharat 320 Kbps.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Task 9: Loop an audio file continuously.</h2>
+    <h3>Hint: Use the loop attribute.</h3>
+    <h3>Answer:</h3>
+    <audio loop>
+        <source src="../../../../Bhavika/Chashni - Bharat 320 Kbps.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Task 10: Embed two videos on the same page.</h2>
+    <h3>Hint: Use two separate &lt;video&gt; elements.</h3>
+    <h3>Answer:</h3>
+    <video width="400" controls>
+        <source src="../../../../HTML/BhavikaKharecha Video Assignment.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Video 2</h2>
+    <video width="400" controls>
+        <source src="../../../../HTML/BhavikaKharecha Video Assignment.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Task 11: Create a basic frameset with two columns.</h2>
+    <h3>Hint: Use &lt;frameset cols="50%,50%"&gt; with &lt;frame&gt;.</h3>
+    <h3>Answer:</h3>
+    <frameset cols="50%,50%">
+        <frame src="../Lecture 04 Tags and Elements, Attributes,semantic Assignment/Semantic Element Example.html"
+            name="leftFrame">
+            <frame
+                src="../Lecture 05 Exploring HTML Text Formatting Tags Assignment/L5 Exploring HTML Text Formatting Tags Assignment.html"
+                name="rightFrame">
+    </frameset>
+
+    <h2>Task 12: Create a frameset with two rows.</h2>
+    <h3>Hint: Use rows="50%,50%".</h3>
+    <h3>Answer:</h3>
+    <frameset rows="50%,50%">
+        <frame
+            src="../Lecture 06 Structuring Web Content HTML Headings, Lists, Blockquotes, and Expandable Sections Assignment/L6 Structuring Web Content HTML Headings, Lists, Blockquotes, and Expandable Sections Assignment.html"
+            name="leftFrame">
+            <frame
+                src="../Lecture 07 Understanding Global Attributes in HTML Assignment/L7 Understanding Global Attributes in HTML Assignment.html"
+                name="rightFrame">
+    </frameset>
+
+    <h2>Task 13: Embed a Google Map using iframe.</h2>
+    <h3>Hint: Copy the embed URL from Google Maps.</h3>
+    <h3>Answer:</h3>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14687.459580090532!2d72.54238974322399!3d23.028735146320898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84eaf57ac615%3A0x5c7498bb96b34c97!2sL.D.%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1764612579825!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <h2>Task 14: Mute an autoplay video.</h2>
+    <h3>Hint: Use the muted attribute.</h3>
+    <h3>Answer:</h3>
+    <video width="400" controls autoplay muted>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <h2>Task 15: Add multiple source formats to a video for browser compatibility.</h2>
+    <h3>Hint: Use multiple &lt;source&gt; tags.</h3>
+    <h3>Answer:</h3>
+    <audio controls>
+        <source src="../../../../HTML/BhavikaKharecha Video Assignment.mp4" type="video/mpeg">
+        <source src="../../../../HTML/BhavikaKharecha Video Assignment.ogg" type="video/ogg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
