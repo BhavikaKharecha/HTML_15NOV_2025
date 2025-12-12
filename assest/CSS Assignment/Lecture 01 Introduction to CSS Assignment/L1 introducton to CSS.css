@@ -1,0 +1,50 @@
+.text{
+    color: white;
+    background-color: black;
+}
+
+.task_6{
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+.task_7 {
+    background: purple;
+    color: blue;
+}
+
+.task_9 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.task_12 {
+    background: black;
+    color: white;
+    font-weight: bold;
+    border: 1px solid papayawhip;
+}
+
+.task_13 {
+    background: palevioletred !important;
+    color: blue !important;
+    font-weight: bold !important;
+    border: 1px solid papayawhip !important;
+}
+
+.task_15 {
+    background-image: url(./../../../assest/image/img.jpg);
+    height: 24cap;
+    font-weight: bold;
+    border: 1px solid papayawhip;
+}
+
+.task_15>h2 {
+    background-color: blueviolet;
+    color: white;
+    width: fit-content;
+    border-radius: 19px;
+    margin: 20px;
+    padding: 5px;
+}
