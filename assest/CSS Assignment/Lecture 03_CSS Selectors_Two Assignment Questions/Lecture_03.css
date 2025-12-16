@@ -1,0 +1,71 @@
+[title] {
+    color: aqua;
+    background-color: crimson;
+}
+
+[type="text"] {
+    background: lightyellow;
+}
+
+[href^="https"] {
+    color: green;
+}
+
+[href$="https://www.google.com/"] {
+    color: blue;
+}
+
+[class*="text"] {
+    color: black;
+    background-color: yellow;
+}
+
+.Hover:hover {
+    color: purple;
+}
+
+.para1 {
+    font-size: x-large;
+    background-color: cornflowerblue;
+}
+
+.para2 {
+    font-size: x-large;
+    background-color: yellow;
+}
+
+div p:first-child {
+    font-weight: bold;
+}
+
+input:checked {
+    accent-color: green;
+}
+
+[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+li p::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+.Shree::before {
+    content: "✨ ";
+    color: gold;
+}
+
+.Shree {
+    color: deeppink;
+}
+
+.Highlight::selection {
+    color: black;
+    background-color: yellow;
+}
+
+.Highlight {
+    color: blue;
+}

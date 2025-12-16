@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./../../../assest/image/HTML_Logo.png" type="image/x-icon">
+    <title>CSS Selectors_Two Assignment Questions</title>
+    <link rel="stylesheet" href="./Lecture_03.css">
+</head>
+
+<body>
+
+    <h1>CSS Selectors — Tasks</h1>
+
+    <h2>Task 1: Style elements with a specific attribute.</h2>
+    <h3>Question: Make all elements with the title attribute have blue text.</h3>
+    <h3>Hint: Use an attribute selector [attr].</h3>
+    <h3>Answer:</h3>
+
+    <ul><li><h2 title="style with CSS">Here all elements with the title attribute have blue text using an attribute selector [attr].</h2></li></ul>
+
+    <h2>Task 2: Style input type text.</h2>
+    <h3>Question: Make all input elements with type="text" have a light yellow background.</h3>
+    <h3>Hint: Use [attr="value"] selector.</h3>
+    <h3>Answer:</h3>
+
+    <h2>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <!-- <a href="#">Hover Over Me</a>
+        <input type="text" placeholder="Focus Here"> -->
+    </h2>
+
+    <h2>Task 3: Style links starting with https.</h2>
+    <h3>Question: Make all &lt;a&gt; tags whose href starts with https green.</h3>
+    <h3>Hint: Use the ^= operator in attribute selectors.</h3>
+    <h3>Answer:</h3>
+
+    <ul><li><h2><a href="https://www.wikipedia.org/">Click here.</a></h2></li></ul>
+
+    <h2>Task 4: Style links ending with .com.</h2>
+    <h3>Question: Change color of links whose href ends with .com.</h3>
+    <h3>Hint: Use the $= operator in attribute selectors.</h3>
+    <h3>Answer:</h3>
+
+    <ul><li><h2><a href="https://www.google.com/">Click here.</a></h2></li></ul>
+
+    <h2>Task 5: Style elements containing a specific word in class.</h2>
+    <h3>Question: Make all elements whose class contains highlight have a yellow background.</h3>
+    <h3>Hint: Use the *= operator.</h3>
+    <h3>Answer:</h3>
+
+    <ul><li><h2 class="text">Here all elements whose class contains highlight have a yellow background using the *= operator.</h2></li></ul>
+
+    <h2>Task 6: Change link color on hover.</h2>
+    <h3>Question: Make all links turn purple when hovered.</h3>
+    <h3>Hint: Use the :hover pseudo-class.</h3>
+    <h3>Answer:</h3>
+
+    <ul><li><h2><a href="#" class="Hover">Hover Over Me.</a></h2></li></ul>
+
+    <h2>Task 7: Style first paragraph of a div.</h2>
+    <h3>Question: Make the first &lt;p&gt; inside a &lt;div&gt; bold.</h3>
+    <h3>Hint: Use the :first-child pseudo-class..</h3>
+    <h3>Answer:</h3>
+
+    <div>
+        <ul>
+            <p class="para1">Here are styling first paragraph of a div using the :first-child pseudo-class will be bold.</p>
+            <p class="para2">Here are styling first paragraph of a div using the :first-child pseudo-class will be normal.</p>
+        </ul>
+    </div>
+
+    <h2>Task 8: Style checked checkboxes.</h2>
+    <h3>Question: Make checked checkboxes green.</h3>
+    <h3>Hint: Use :checked pseudo-class.</h3>
+    <h3>Answer:</h3>
+
+    <h2>
+        <label for="fruits">Banana</label>
+        <input type="checkbox" name="fruits" id="fruits">
+        <label for="fruit">Mango</label>
+        <input type="checkbox" name="fruit" id="fruit">
+    </h2>
+
+    <h2>Task 9: Style first letter of a paragraph.</h2>
+    <h3>Question: Make the first letter of every paragraph red and larger.</h3>
+    <h3>Hint: Use ::first- letter pseudo-element.</h3>
+    <h3>Answer:</h3>
+
+    <div>
+        <ul>
+            <li><p class="para1">Here are styling first letter of a paragraph using ::First-letter pseudo-element.</p></li>
+            <li><p class="para2">Here are styling first letter of a paragraph using ::First-letter pseudo-element.</p></li>
+        </ul>
+    </div>
+
+    <h2>Task 10: Add content before a heading.</h2>
+    <h3>Question: Add a star symbol before every &lt;h2&gt; element.</h3>
+    <h3>Hint: Use ::before pseudo-element with content.</h3>
+    <h3>Answer:</h3>
+
+    <h2 class="Shree">Shree Ganesh.</h2>
+    <h2 class="Shree">Shree Radhe.</h2>
+    <h2 class="Shree">Shree Krishna.</h2>
+    <h2 class="Shree">Shree RadheKrishna.</h2>
+
+    <h2>Task 11: Highlight selected text.</h2>
+    <h3>Question: Make highlighted text appear with a yellow background and black text..</h3>
+    <h3>Hint: Use multiple ::selection pseudo-element.</h3>
+    <h3>Answer:</h3>
+
+    <ul><li><h2 class="Highlight">Here highlighted selected text using multiple ::selection pseudo-element.</h2></li></ul>
+
+    <h2>Task 12: Style the last item of a list.</h2>
+    <h3>Question: Make the last &lt;li&gt; in every &lt;ul&gt; bold.</h3>
+    <h3>Hint: Use :last-child pseudo-class.</h3>
+    <h3>Answer:</h3>
+
+    <h2>Task 13: Exclude specific paragraphs.</h2>
+    <h3>Question: Make all &lt;p&gt; gray except those with class important.</h3>
+    <h3>Hint: Use :not() pseudo-class.</h3>
+    <h3>Answer:</h3>
+
+    <h2>Task 14: Style inputs on focus.</h2>
+    <h3>Question: Add a blue border when any &lt;input&gt; is focused.</h3>
+    <h3>Hint: Use :focus pseudo-class.</h3>
+    <h3>Answer:</h3>
+
+    <h2>Task 15: Show attribute value using CSS.</h2>
+    <h3>Question: Display the title attribute after each link using ::after.</h3>
+    <h3>Hint: Use content: attr(title) with pseudo-element.</h3>
+    <h3>Answer:</h3>
+
+</body>
+</html>
