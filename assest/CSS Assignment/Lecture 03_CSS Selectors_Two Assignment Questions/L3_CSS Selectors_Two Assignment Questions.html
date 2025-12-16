@@ -18,7 +18,12 @@
     <h3>Hint: Use an attribute selector [attr].</h3>
     <h3>Answer:</h3>
 
-    <ul><li><h2 title="style with CSS">Here all elements with the title attribute have blue text using an attribute selector [attr].</h2></li></ul>
+    <ul>
+        <li>
+            <h2 title="style with CSS">Here all elements with the title attribute have blue text using an attribute
+                selector [attr].</h2>
+        </li>
+    </ul>
 
     <h2>Task 2: Style input type text.</h2>
     <h3>Question: Make all input elements with type="text" have a light yellow background.</h3>
@@ -27,7 +32,7 @@
 
     <h2>
         <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+        <input type="text" class="elements">
         <!-- <a href="#">Hover Over Me</a>
         <input type="text" placeholder="Focus Here"> -->
     </h2>
@@ -37,28 +42,45 @@
     <h3>Hint: Use the ^= operator in attribute selectors.</h3>
     <h3>Answer:</h3>
 
-    <ul><li><h2><a href="https://www.wikipedia.org/">Click here.</a></h2></li></ul>
+    <ul>
+        <li>
+            <h2><a href="https://www.wikipedia.org/">Click here.</a></h2>
+        </li>
+    </ul>
 
     <h2>Task 4: Style links ending with .com.</h2>
     <h3>Question: Change color of links whose href ends with .com.</h3>
     <h3>Hint: Use the $= operator in attribute selectors.</h3>
     <h3>Answer:</h3>
 
-    <ul><li><h2><a href="https://www.google.com/">Click here.</a></h2></li></ul>
+    <ul>
+        <li>
+            <h2><a href="https://www.google.com/">Click here.</a></h2>
+        </li>
+    </ul>
 
     <h2>Task 5: Style elements containing a specific word in class.</h2>
     <h3>Question: Make all elements whose class contains highlight have a yellow background.</h3>
     <h3>Hint: Use the *= operator.</h3>
     <h3>Answer:</h3>
 
-    <ul><li><h2 class="text">Here all elements whose class contains highlight have a yellow background using the *= operator.</h2></li></ul>
+    <ul>
+        <li>
+            <h2 class="text">Here all elements whose class contains highlight have a yellow background using the *=
+                operator.</h2>
+        </li>
+    </ul>
 
     <h2>Task 6: Change link color on hover.</h2>
     <h3>Question: Make all links turn purple when hovered.</h3>
     <h3>Hint: Use the :hover pseudo-class.</h3>
     <h3>Answer:</h3>
 
-    <ul><li><h2><a href="#" class="Hover">Hover Over Me.</a></h2></li></ul>
+    <ul>
+        <li>
+            <h2><a href="#" class="Hover">Hover Over Me.</a></h2>
+        </li>
+    </ul>
 
     <h2>Task 7: Style first paragraph of a div.</h2>
     <h3>Question: Make the first &lt;p&gt; inside a &lt;div&gt; bold.</h3>
@@ -67,8 +89,10 @@
 
     <div>
         <ul>
-            <p class="para1">Here are styling first paragraph of a div using the :first-child pseudo-class will be bold.</p>
-            <p class="para2">Here are styling first paragraph of a div using the :first-child pseudo-class will be normal.</p>
+            <p class="para2">Here are styling first paragraph of a div using the :first-child pseudo-class will be bold.
+            </p>
+            <p class="para2">Here are styling first paragraph of a div using the :first-child pseudo-class will be
+                normal.</p>
         </ul>
     </div>
 
@@ -91,8 +115,12 @@
 
     <div>
         <ul>
-            <li><p class="para1">Here are styling first letter of a paragraph using ::First-letter pseudo-element.</p></li>
-            <li><p class="para2">Here are styling first letter of a paragraph using ::First-letter pseudo-element.</p></li>
+            <li>
+                <p class="para1">Here are styling first letter of a paragraph using ::First-letter pseudo-element.</p>
+            </li>
+            <li>
+                <p class="para1">Here are styling first letter of a paragraph using ::First-letter pseudo-element.</p>
+            </li>
         </ul>
     </div>
 
@@ -111,27 +139,78 @@
     <h3>Hint: Use multiple ::selection pseudo-element.</h3>
     <h3>Answer:</h3>
 
-    <ul><li><h2 class="Highlight">Here highlighted selected text using multiple ::selection pseudo-element.</h2></li></ul>
+    <ul>
+        <li>
+            <h2 class="Highlight">Here highlight selected text using multiple ::selection pseudo-element.</h2>
+        </li>
+    </ul>
 
     <h2>Task 12: Style the last item of a list.</h2>
     <h3>Question: Make the last &lt;li&gt; in every &lt;ul&gt; bold.</h3>
     <h3>Hint: Use :last-child pseudo-class.</h3>
     <h3>Answer:</h3>
 
+    <div>
+        <ul>
+            <li>
+                <span class="para1">Here are styling the last item of list using the :last-child pseudo-class will be
+                    normal.</span><br><br>
+                <span class="para2">Here are styling the last item of list using the :last-child pseudo-class will be
+                    bold.</span>
+            </li>
+        </ul>
+    </div>
+
     <h2>Task 13: Exclude specific paragraphs.</h2>
     <h3>Question: Make all &lt;p&gt; gray except those with class important.</h3>
     <h3>Hint: Use :not() pseudo-class.</h3>
     <h3>Answer:</h3>
+
+    <ul>
+        <li>
+            <h2>
+                <p class="gray">Here all &lt;p&gt; gray except those with class important using :not() pseudo-class.</p>
+            </h2>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h2>
+                <p class="gray">Here all &lt;p&gt; gray except those with class important using :not() pseudo-class.</p>
+            </h2>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <h2>
+                <p class="gray">Here all &lt;p&gt; gray except those with class important using :not() pseudo-class.</p>
+            </h2>
+        </li>
+    </ul>
 
     <h2>Task 14: Style inputs on focus.</h2>
     <h3>Question: Add a blue border when any &lt;input&gt; is focused.</h3>
     <h3>Hint: Use :focus pseudo-class.</h3>
     <h3>Answer:</h3>
 
+    <h2>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter name" class="blue_border">
+        <label for="mobile number">Mobile Number</label>
+        <input type="text" placeholder="Enter Mobile Number" class="blue_border">
+    </h2>
+
     <h2>Task 15: Show attribute value using CSS.</h2>
     <h3>Question: Display the title attribute after each link using ::after.</h3>
     <h3>Hint: Use content: attr(title) with pseudo-element.</h3>
     <h3>Answer:</h3>
 
+    <ul>
+        <h2 class="link">
+            <li><a href="https://chromewebstore.google.com/?hl=en" title="Web Store Website">Visit Web Store</a></li>
+            <br>
+            <li><a href="https://google.com" title="Google Search">Visit Google</a></li>
+        </h2>
+    </ul>
 </body>
 </html>

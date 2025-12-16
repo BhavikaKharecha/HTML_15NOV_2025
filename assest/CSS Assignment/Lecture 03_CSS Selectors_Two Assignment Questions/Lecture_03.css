@@ -1,13 +1,13 @@
 [title] {
-    color: aqua;
-    background-color: crimson;
+    color: blue;
+    background-color: aqua;
 }
 
-[type="text"] {
+[class="elements"] {
     background: lightyellow;
 }
 
-[href^="https"] {
+[href^="https://www.wikipedia.org/"] {
     color: green;
 }
 
@@ -47,9 +47,9 @@ input:checked {
     height: 20px;
 }
 
-li p::first-letter {
-  color: red;
-  font-size: 30px;
+.para1::first-letter {
+    color: red;
+    font-size: 30px;
 }
 
 .Shree::before {
@@ -69,3 +69,25 @@ li p::first-letter {
 .Highlight {
     color: blue;
 }
+
+ul span:last-child {
+    font-weight: bold;
+}
+
+.gray:not(.special) {
+    color: gray;
+}
+
+.blue_border:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+a::after {
+    content: " (" attr(title) ")";
+}
+
+/* .link {
+    color: blue;
+    background-color: gold;
+} */
