@@ -1,21 +1,21 @@
-[title] {
+h2[title] {
     color: blue;
     background-color: aqua;
 }
 
-[class="elements"] {
+h2[class="elements"] {
     background: lightyellow;
 }
 
-[href^="https://www.wikipedia.org/"] {
+a[href^="https://www.wikipedia.org/"] {
     color: green;
 }
 
-[href$="https://www.google.com/"] {
+a[href$="https://www.google.com/"] {
     color: blue;
 }
 
-[class*="text"] {
+h2[class*="text"] {
     color: black;
     background-color: yellow;
 }
@@ -42,7 +42,7 @@ input:checked {
     accent-color: green;
 }
 
-[type="checkbox"] {
+h2[type="checkbox"] {
     width: 20px;
     height: 20px;
 }
