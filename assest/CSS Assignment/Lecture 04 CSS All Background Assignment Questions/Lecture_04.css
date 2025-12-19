@@ -1,0 +1,85 @@
+.Task_1 {
+    background-color: aqua;
+}
+
+.Task_2 {
+    background-image: url(../../image/img.jpg);
+    color: blue;
+}
+
+.Task_3 {
+    background-image: url(../../image/img.jpg);
+    color: blue;
+    background-repeat: no-repeat;
+}
+
+.Task_4 {
+    background-image: url(../../image/img.jpg);
+    color: blue;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.Task_5 {
+    color: blue;
+    background-image: url(../../image/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Task_6 {
+    color: blue;
+    background-image: url(../../image/img.jpg);
+    background-attachment: fixed;
+}
+
+.Task_7 {
+    color: blue;
+    background-image: url(../../image/img.jpg);
+    background-color: rgb(239, 5, 5);
+    background-blend-mode: 50% transparency;
+}
+
+.Task_8 {
+    color: blue;
+    background-image: url(../../image/img.jpg);
+    background-clip: padding-box;
+}
+
+.Task_9 {
+    color: blue;
+    background-image: url(../../image/img.jpg);
+    background-origin: content-box;
+}
+
+.Task_10 {
+    color: blue;
+    background: [color] [image] [repeat] [attachment] [position] [size] [clip] [origin];
+    background: lightblue url(../../image/img.jpg) no-repeat fixed center/cover padding-box border-box;
+}
+
+.Task_11 {
+    color: blue;
+    background-image: url(../../image/img.jpg);
+    background-color: red;
+    background-blend-mode: multiply;
+}
+
+.Task_13 {
+    color: blue;
+    background-image: url(../../image/img.jpg);
+    background-repeat: repeat-x;
+}
+
+.Task_14 {
+    color: blue;
+    background-image: url(../../image/img.jpg),url(../../image/HTML_Logo.png);
+    background-repeat: no-repeat,no-repeat;
+}
+
+.Task_15 {
+    color: blue;
+    background: lightgreen url(../../image/img.jpg) center / cover no-repeat;
+    background-blend-mode: multiply;
+}
