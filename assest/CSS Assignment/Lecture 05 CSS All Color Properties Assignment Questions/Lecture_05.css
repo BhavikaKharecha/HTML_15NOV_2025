@@ -14,3 +14,73 @@
     text-decoration: underline;
     text-decoration-color: orange;
 }
+
+.Here {
+    background-color: blue;
+}
+
+.Task_6 {
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-color: blue;
+}
+
+.Task_7 {
+    column-count: 3;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-rule-color: red;
+}
+
+.circle {
+    background-color: blue;
+}
+
+.Task_8 {
+    fill: yellow;
+    stroke: black;
+}
+
+.rectangle {
+    background-color: blue;
+}
+
+.Task_9 {
+    stroke: blue;
+}
+
+.Task_10 {
+    fill: hsl(348, 97%, 54%);
+}
+
+.Task_11 {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.Task_12 {
+    column-count: 2;
+    column-rule-style: solid;
+    column-rule-width: 10px;
+    column-rule-color: black;
+}
+
+.Task_13 {
+    fill: blue;
+    stroke: black;
+    stroke-width: 2;
+}
+
+.Task_14 {
+    color: gold;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+}
+
+.Task_15 {
+    fill: rgb(166, 165, 165);
+    stroke: green;
+    stroke-width: 2;
+}
