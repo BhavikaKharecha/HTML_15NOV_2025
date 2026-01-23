@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website View</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            border: 5px double green;
+            padding: 10px 20px 10px 20px;
+        }
+
+        .nav ul {
+            list-style-type: none; /* Removes bullet points */
+            overflow: hidden;
+        }
+
+        /* .nav li {
+            float: left; /* Floats list items horizontally */
+        /*} */
+
+        .nav .home, .nav .about {
+            float: left;
+        }
+
+        .nav .logo {
+            float: right;
+        }
+
+        .nav .about {
+            margin-left: 10px;
+        }
+
+        .nav li a {
+            display: block; /* Makes the entire link area clickable */
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; /* Removes underlines from links */
+            border: 1px solid black;
+        }
+
+        /* Change the color of links on hover */
+        .nav li a:hover:not(.home) {
+            background-color: #955023;
+        }
+
+        /* Add a color to the active/current link */
+        .nav li a.home {
+            background-color: #04AA6D;
+        }
+
+        .ba {
+            border: 2px solid skyblue;
+            /* padding: 0px 100px 0px 100px; */
+        }
+
+        .ps  {
+            border: 2px solid #955023;
+            padding: 5px;
+            width: fit-content;
+            /* margin: 80px 100px 80px 100px; */
+        }
+
+        td {
+            text-indent: 590px;
+            font-size: 50px;
+        }
+
+        .imenu {
+            display: inline-block;
+            width: 250px;
+            border: 2px solid #04AA6D;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .sp, .sp1 {
+            margin-left: 159px;
+        }
+
+        .sp2 {
+            float: right;
+        }
+
+        img {
+            width: 200px; /* Width of your image */
+            height: 200px; /* Height of your image */
+            border-radius: 50%; /* This makes the image round */
+        }
+
+    </style>
+</head>
+<body>
+    <section class="main">
+        <div class="nav">
+            <ul>
+                <li><a href="#" class="home">Home</a></li>
+                <li class="gp"></li>
+                <li><a href="#" class="about">About</a></li>
+                <li class="sp"></li>
+                <li><a href="#" class="logo">Logo</a></li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class="ba">
+            <br><br><br><br>
+            <table>
+                <tr><td><span class="ps">Website Baner</span></td></tr>
+            </table>
+            <br><br><br><br>
+        </div>
+        <br>
+        <div class="imenu">
+            <img src="../assest/image/img.jpg" alt="">
+            <h2>Imge 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, libero ad natus, ut placeat praesentium eum impedit odit blanditiis nemo sequi earum consectetur illum, ab ullam aliquam laboriosam assumenda officiis.</p>
+        </div>
+        <div class="imenu sp">
+            <img src="../assest/image/img.jpg" alt="">
+            <h2>Imge 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, libero ad natus, ut placeat praesentium eum impedit odit blanditiis nemo sequi earum consectetur illum, ab ullam aliquam laboriosam assumenda officiis.</p>
+        </div>
+        <div class="imenu sp1">
+            <img src="../assest/image/img.jpg" alt="">
+            <h2>Imge 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, libero ad natus, ut placeat praesentium eum impedit odit blanditiis nemo sequi earum consectetur illum, ab ullam aliquam laboriosam assumenda officiis.</p>
+        </div>
+        <div class="imenu sp2">
+            <img src="../assest/image/img.jpg" alt="">
+            <h2>Imge 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, libero ad natus, ut placeat praesentium eum impedit odit blanditiis nemo sequi earum consectetur illum, ab ullam aliquam laboriosam assumenda officiis.</p>
+        </div>
+    </section>
+</body>
+</html>

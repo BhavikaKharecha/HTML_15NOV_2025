@@ -1,0 +1,83 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.Task {
+    border: 3px solid;
+    padding: 5px;
+}
+
+.Home {
+    border: 3px solid;
+    height: 10px;
+    display: inline;
+    padding: 5px 30px;
+    margin: 15px;
+    /* width: 80%; */
+}
+
+.about {
+    border: 3px solid;
+    height: 10px;
+    display: inline;
+    padding: 5px 50px;
+    margin: 15px;
+}
+
+.logo {
+    border: 3px solid;
+    height: 10px;
+    display: inline;
+    padding: 5px 50px;
+    margin-left: 975px;
+    /* width: 50%; */
+}
+
+.site {
+    border: 3px solid;
+    /* display: inline; */
+}
+
+.Web {
+    outline: 3px solid;
+    outline-offset: 15px;
+    display: inline;
+    /* text-align: center; */
+    /* height: 50%; */
+    /* border-spacing: 100px; */
+}
+
+.in {
+    display: inline;
+    visibility: hidden;
+}
+
+/* .lo {
+    display: inline;
+} */
+
+.img {
+    display: inline-block;
+    border: 3px solid;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+.img1 {
+    display: inline-block;
+    border: 3px solid;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
+
+.img2 {
+    display: inline-block;
+    border: 3px solid;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
