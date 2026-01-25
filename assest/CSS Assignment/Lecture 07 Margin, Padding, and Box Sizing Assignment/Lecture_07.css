@@ -1,0 +1,212 @@
+.Task_1 {
+    width: 60%;
+    height: 100px;
+    color: yellow;
+    background-color: blue;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.Task_2 {
+    width: 56.2%;
+    height: 85px;
+    color: yellow;
+    background-color: blue;
+    /* text-align: center; */
+    padding: 15px;
+}
+
+.Task_3{
+    width: 59.5%;
+    height: 85px;
+    color: yellow;
+    background-color: blue;
+    margin: 40px 40px 40px 40px;
+    padding: 15px;
+}
+
+.Task_4 {
+    width: 50%;
+    color: yellow;
+    background-color: blue;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.Task_5 {
+    width: 50%;
+    color: yellow;
+    background-color: blue;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.Task_6 {
+    width: 50%;
+    color: yellow;
+    background-color: blue;
+    margin: vertical;
+    padding: 10px;
+}
+
+.Task_7 {
+    width: 70%;
+    color: yellow;
+    background-color: blue;
+    /* margin: 0px auto; */
+    padding-left: 40px;
+}
+
+.Task_8 {
+    width: 70%;
+    color: yellow;
+    background-color: blue;
+    margin-top: -30px;
+    padding-left: 15px;
+}
+
+.Task_9 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid pink;
+    width: 900px;
+    text-align: center;
+}
+
+.Task_9_1, .Task_9_2 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid greenyellow;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin: auto auto 9px auto;
+    padding: 15px;
+}
+
+.Task_9_2 {
+    box-sizing: border-box;
+}
+
+.Task_10 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid green;
+    text-align: center;
+    width:650px;
+}
+
+.Task_10 span {
+    color: whitesmoke;
+}
+
+.Task_10_3, .task_10_1 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid greenyellow;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin: auto auto 9px auto;
+    padding: 15px;
+}
+
+.Task_10_2 * {
+    box-sizing: border-box;
+}
+
+.Task_11 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid pink;
+    text-align: center;
+    width: 800px;
+}
+
+.Task_11_1, .task_11_2 {
+    color: yellow;
+    background: blue;
+    border: 1px solid greenyellow;
+    text-align: center;
+    font-weight: bold;
+    width: 250px;
+    margin: auto auto 9px auto;
+    padding: 15px;
+}
+
+.Task_11_2 {
+    padding: 19px;
+}
+
+.Task_12 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid pink;
+    margin-bottom: 15px;
+}
+
+.Task_13 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid greenyellow;
+    text-align: center;
+    width: 450px;
+}
+
+.Task_13_1 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid pink;
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    margin: auto auto 9px auto;
+    padding: 15px;
+}
+
+.Task_14 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid greenyellow;
+    text-align: center;
+    width: 600px;
+}
+
+.Task_14_1, .task_14_2 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid pink;
+    text-align: center;
+    font-weight: bold;
+    width: 250px;
+    margin: auto auto 15px auto;
+    padding: 15px;
+}
+
+.Task_14_2 {
+    margin: auto auto 19px auto;
+    padding: 15px;
+}
+
+.Task_15 {
+    color: yellow;
+    background-color: blue;
+    border: 1px solid greenyellow;
+    text-align: center;
+}
+
+.responsive-container {
+    /* This ensures padding/border don't increase the 100% width */
+    box-sizing: border-box; 
+    color: blue;
+    width: 100%;
+    padding: 40px;
+    border: 9px solid pink;
+    background-color: greenyellow;
+    
+    /* Just for visibility */
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+}
